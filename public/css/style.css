@@ -1,0 +1,137 @@
+html{
+    width: 100%;
+    height: 100%;
+}
+body {
+    font-size: 20px;
+    margin: 0;
+    height: 100%;
+}
+
+a {
+    text-decoration: none;
+    color: #0a0a0a;
+}
+
+li{
+    list-style-type: none;
+}
+
+#mainmenu {
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 80px;
+    background-color: #ffffff;
+    border-bottom: solid #ffffff;
+}
+
+.mainMenuItem {
+    margin-left: 20px;
+    margin-top: 10px;
+    text-align: center;
+    width: 230px;
+    height: 50px;
+    color: white;
+    background-color: #ffffff;
+}
+
+#workArea {
+    background-color: #ffffff;
+    margin-top: 40px;
+    margin-left: 40px;
+    margin-right: 40px;
+    padding-bottom: 50px;
+    height: 70%;
+    margin-bottom: 40px;
+}
+
+.sitebutton {
+    margin-top: 10px;
+    text-align: center;
+    width: 230px;
+    height: 50px;
+    color: #000000;
+    background-color: #fdfdfd;
+}
+
+.list
+{
+    overflow:scroll;
+    height:300px;
+}
+
+.listElem
+{
+    margin-top: 10px;
+    text-align: center;
+    width: 230px;
+    height: 30px;
+    color: white;
+    background-color: #020202;
+}
+
+.siteInputArea {
+    width: 200px;
+    height: 30px;
+}
+
+/*input[type="text"], input[type="password"], textarea {*/
+/*    background-color: rgb(255, 193, 179);*/
+/*}*/
+
+.backBlock {
+    background-color: #ffffff;
+    width: 320px;
+    padding-bottom: 50px;
+    margin-left: 20px;
+    margin-top: 20px;
+    text-align: center;
+    border: thick double #0a0a0a;
+}
+
+footer {
+    width: 100%;
+    height: 10%;
+    background-color: #8ec2f6;
+    color: white;
+    bottom: 0;
+    position: absolute;
+    border-radius: 3%;
+}
+
+
+#homepage {
+    display: flex;
+    flex-direction: row;
+    width: 65%;
+    justify-content: space-around;
+}
+
+#loginpage {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    text-align: center;
+}
+
+.twoBlockPage
+{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-around;
+}
+
+.countedBlock
+{
+    background-color: white;
+    width: 320px;
+    height: 100px;
+    padding-bottom: 50px;
+    margin-left: 20px;
+    margin-top: 20px;
+    text-align: center;
+    border: thick double #ffffff;
+}
